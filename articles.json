@@ -1,0 +1,43 @@
+{
+
+    "1" : {
+        "titre": "L'essor de l'intelligence artificielle dans les entreprises",
+        "categorie": "Technologie",
+        "auteur": "Sophie Dupont",
+        "date": "2023-04-28",
+        "contenu": "L'intelligence artificielle est de plus en plus utilisée dans les entreprises pour aider à améliorer les processus et les décisions. Des algorithmes avancés peuvent analyser de grandes quantités de données pour aider les entreprises à prendre des décisions plus éclairées et à optimiser les processus."
+     },
+     
+     "2" : {
+        "titre": "La blockchain et la sécurité des données",
+        "categorie": "Technologie",
+        "auteur": "Pierre Leclerc",
+        "date": "2023-04-22",
+        "contenu": "La blockchain est une technologie qui peut aider à améliorer la sécurité des données en créant des registres immuables et transparents. Cette technologie est particulièrement utile pour les transactions financières, mais elle peut également être utilisée pour stocker des données sensibles dans d'autres domaines."
+     },
+     
+     "3" : {
+        "titre": "Les avancées de la technologie 5G",
+        "categorie": "Technologie",
+        "auteur": "Marc Dubois",
+        "date": "2023-04-17",
+        "contenu": "La technologie 5G est une évolution des réseaux de communication mobiles qui permettent des débits de données plus élevés et une latence plus faible. Cette technologie est en train de changer la façon dont nous utilisons nos téléphones portables et d'autres appareils connectés."
+     },
+     
+     "4" : {
+        "titre": "Le développement des voitures autonomes",
+        "categorie": "Technologie",
+        "auteur": "Lucie Bernard",
+        "date": "2023-04-12",
+        "contenu": "Les voitures autonomes sont des véhicules qui peuvent se conduire eux-mêmes sans l'intervention d'un conducteur humain. Cette technologie est en train de révolutionner l'industrie automobile, mais elle soulève également des questions sur la sécurité et la responsabilité."
+     },
+     
+     "5" : {
+        "titre": "Les avantages de l'Internet des objets pour les entreprises",
+        "categorie": "Technologie",
+        "auteur": "Pauline Lefevre",
+        "date": "2023-04-07",
+        "contenu": "L'Internet des objets est une technologie qui permet aux objets physiques d'être connectés à Internet et de communiquer entre eux. Cette technologie est en train de changer la façon dont les entreprises fonctionnent en leur permettant de collecter des données sur leurs produits et leurs clients."
+     }
+
+}
