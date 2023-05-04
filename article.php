@@ -1,9 +1,19 @@
+<?php 
+/**
+ * Page dédiée à l'affichage d'un article
+ */
 
-<!-- Chargement du fichier _head.php -->
-<?php include dirname(__FILE__) . '/partials/_head.php'; ?>
+require dirname(__FILE__) . '/data.php';
 
-<!-- Chargement du fichier _aside.php -->
-<?php include dirname(__FILE__) . '/partials/_aside.php'; ?>
+// Chargement du fichier _head.php
+include dirname(__FILE__) . '/partials/_head.php';
+
+// Chargement du fichier _aside.php
+include dirname(__FILE__) . '/partials/_aside.php'; 
+
+singlePost($_GET['id']);
+
+?>
 
         <main>
             <section>
@@ -26,8 +36,6 @@
                     </div>
                 </div>
                 <h2>Titre secondaire</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem debitis expedita, dicta explicabo minima assumenda ut exercitationem fugit officia voluptatum vero quisquam rerum praesentium. Saepe dolorem minus veniam quis exercitationem sint. Doloremque alias nobis, ullam at et aliquam quas minima illum dicta nemo eveniet maiores officia sunt fuga temporibus voluptas velit quidem quis porro tempora. Ab ipsa animi quia non quibusdam expedita eaque pariatur sit distinctio perspiciatis vero adipisci voluptatibus reprehenderit voluptas tenetur voluptatem nihil odio veniam nisi rem odit, earum beatae! Quia, possimus ad, provident dolore, ab dolorum nostrum nisi tenetur eaque est consequuntur qui officiis nesciunt architecto veritatis non reprehenderit numquam natus facilis perspiciatis id consequatur fuga aliquam. Dolore aspernatur quae deleniti quia quibusdam asperiores. Sunt natus impedit, doloribus iusto soluta eligendi quasi corrupti magni harum culpa autem a est. Quidem eos inventore doloribus temporibus quae enim tenetur nemo, nihil expedita, aspernatur odio? Cumque esse voluptate, sunt corporis perspiciatis aliquid, est repellendus porro fuga hic iure earum a consequatur mollitia, natus necessitatibus tempora rerum incidunt sequi ut minus perferendis molestias nisi laudantium. Magni laboriosam ratione commodi! Perferendis quisquam, veniam hic maxime, dicta asperiores corporis rerum ex quasi voluptates exercitationem minus repellat. Quidem delectus odit repudiandae similique quasi nam!</p>
-
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem debitis expedita, dicta explicabo minima assumenda ut exercitationem fugit officia voluptatum vero quisquam rerum praesentium. Saepe dolorem minus veniam quis exercitationem sint. Doloremque alias nobis, ullam at et aliquam quas minima illum dicta nemo eveniet maiores officia sunt fuga temporibus voluptas velit quidem quis porro tempora. Ab ipsa animi quia non quibusdam expedita eaque pariatur sit distinctio perspiciatis vero adipisci voluptatibus reprehenderit voluptas tenetur voluptatem nihil odio veniam nisi rem odit, earum beatae! Quia, possimus ad, provident dolore, ab dolorum nostrum nisi tenetur eaque est consequuntur qui officiis nesciunt architecto veritatis non reprehenderit numquam natus facilis perspiciatis id consequatur fuga aliquam. Dolore aspernatur quae deleniti quia quibusdam asperiores. Sunt natus impedit, doloribus iusto soluta eligendi quasi corrupti magni harum culpa autem a est. Quidem eos inventore doloribus temporibus quae enim tenetur nemo, nihil expedita, aspernatur odio? Cumque esse voluptate, sunt corporis perspiciatis aliquid, est repellendus porro fuga hic iure earum a consequatur mollitia, natus necessitatibus tempora rerum incidunt sequi ut minus perferendis molestias nisi laudantium. Magni laboriosam ratione commodi! Perferendis quisquam, veniam hic maxime, dicta asperiores corporis rerum ex quasi voluptates exercitationem minus repellat. Quidem delectus odit repudiandae similique quasi nam!</p>
                 
                 <div class="row">

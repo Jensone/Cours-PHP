@@ -13,8 +13,8 @@ include dirname(__FILE__) . '/partials/_aside.php';
 
         <main>
             <section>
-                <h1>Accueil ZeBlog</h1>
-                <h2>L'actu sur la tech</h2>
+                <h1 class="text-center">Accueil ZeBlog</h1>
+                <h2 class="text-center">L'actu sur la tech</h2>
                 
                 <div class="row">
                     <hr>
