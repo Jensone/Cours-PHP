@@ -3,6 +3,7 @@
  * Page dédiée à l'affichage d'un article
  */
 
+// Chargement du fichier data.php pour les données du JSON
 require dirname(__FILE__) . '/data.php';
 
 // Chargement du fichier _head.php
