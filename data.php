@@ -8,12 +8,7 @@
  * @return string
  */
 
-define( // Définition de la constante ARTICLES
-    'ARTICLES', // Nom de la constante
-    json_decode(file_get_contents( // Décode le fichier articles.json
-        __DIR__ . '/assets/articles.json' // Chemin du fichier articles.json
-    ), true) // true pour tableau associatif
-); // Fin de la définition de la constante ARTICLES
+define('ARTICLES', json_decode(file_get_contents(__DIR__ . '/assets/articles.json'), true));
 
 /**
  * DONE: Boucles sur les articles

@@ -78,5 +78,3 @@ singlePost($_GET['id']);
 
 <!-- Chargement du fichier _footer.php -->
 <?php include dirname(__FILE__) . '/partials/_footer.php'; ?>
-
-
