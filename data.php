@@ -5,7 +5,7 @@
 
 /**
  * DONE: On inclut le fichier articles.json
- * @return void
+ * @return string
  */
 
 define( // Définition de la constante ARTICLES
@@ -27,8 +27,8 @@ function allPosts() // Fonction pour afficher tous les articles
         echo '<div class="card col-md-3 col-sm-12">'; // Début de la carte
         echo '<img src="/assets/img/' . $valeur['id'] . '.jpeg" class="card-img-top mt-2 rounded" alt="' . $valeur['titre'] . '">'; // Image de la carte
         echo '<div class="card-body">'; // Début du corps de la carte
-        echo '<h4 class="card-title">' . $valeur['titre'] . '</h4>'; // Titre de la carte
-        echo '<p class="card-text fs-6">' . substr($valeur['contenu'], 0, 100) . '...</p>'; // Contenu de la carte
+        echo '<h4 class="card-title">' . substr($valeur['titre'], 0, 55) . '...</h4>'; // Titre de la carte
+        echo '<p class="card-text fs-6">' . substr($valeur['contenu'], 0, 90) . '...</p>'; // Contenu de la carte
         echo '<a href="/article.php?id=' . $valeur['id'] . '" class="btn btn-warning rounded-5">Lire la suite</a>'; // Bouton de la carte
         echo '</div></div>'; // Fin du corps de la carte avec les 2 div imbriquées
     } // Fin de la boucle foreach
@@ -46,7 +46,14 @@ function allPosts() // Fonction pour afficher tous les articles
 function singlePost(int $id)
 {
     $articles = constant('ARTICLES'); // Récupération de la constante ARTICLES
-    var_dump($articles[$id]); // Affiche l'article avec l'id correspondant
+    // var_dump($articles[$id]); // Affiche l'article avec l'id correspondant
+
+    define('titre', $articles[$id]['titre']); // On stock le titre de l'article dans une variable 
+    define('auteur', $articles[$id]['auteur']); // On stock l'auteur de l'article dans une variable
+    define('categorie', $articles[$id]['categorie']); // On stock la categorie de l'article  dans une variable
+    define('date', $articles[$id]['date']); // On stock la date de l'article dans une variable
+    define('contenu', $articles[$id]['contenu']); // On stock le contenu de l'article dans une variable
+
 }
 
 // Redirige vers la page d'accueil si un utilisateur tente d'accéder à la page data.php
